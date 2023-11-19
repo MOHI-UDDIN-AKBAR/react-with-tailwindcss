@@ -1,15 +1,42 @@
+import {
+  Hero,
+  PopularProducts,
+  Subscribe,
+  Services,
+  SpecialOffer,
+  SuperQuality,
+  Footer,
+  CustomerReviews,
+} from './Sections'
+import { Nav } from './Components'
 const App = () => {
   return (
-    <main>
-      nav
-      <section>Hero</section>
-      <section>PopularProducts</section>
-      <section>SuperQuality</section>
-      <section>Services</section>
-      <section>SpecialOffers</section>
-      <section>CustomerReviews</section>
-      <section>Subscribe</section>
-      <section>Footer</section>
+    <main className="max-container border-2 border-red-500 relative">
+      <Nav />
+      {/* <section>
+        <Hero />
+      </section>
+      <section>
+        <PopularProducts />
+      </section>
+      <section>
+        <SuperQuality />
+      </section>
+      <section>
+        <Services />
+      </section>
+      <section>
+        <SpecialOffer />
+      </section>
+      <section>
+        <CustomerReviews />
+      </section>
+      <section>
+        <Subscribe />
+      </section>
+      <section>
+        <Footer />
+      </section> */}
     </main>
   )
 }
