@@ -7,16 +7,16 @@ import {
   SuperQuality,
   Footer,
   CustomerReviews,
-} from './Sections'
-import { Nav } from './Components'
+} from "./Sections";
+import { Nav } from "./Components";
 const App = () => {
   return (
-    <main className="max-container border-2 border-red-500 relative">
-      <Nav />
-      {/* <section>
+    <main className="max-container relative">
+      {/* <Nav /> */}
+      <section>
         <Hero />
       </section>
-      <section>
+      {/* <section>
         <PopularProducts />
       </section>
       <section>
@@ -38,7 +38,7 @@ const App = () => {
         <Footer />
       </section> */}
     </main>
-  )
-}
+  );
+};
 
-export default App
+export default App;
