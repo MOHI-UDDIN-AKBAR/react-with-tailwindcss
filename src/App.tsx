@@ -12,14 +12,14 @@ import { Nav } from "./Components";
 const App = () => {
   return (
     <main className="max-container relative">
-      {/* <Nav /> */}
+      <Nav />
       <section>
         <Hero />
       </section>
-      {/* <section>
+      <section>
         <PopularProducts />
       </section>
-      <section>
+      {/*<section>
         <SuperQuality />
       </section>
       <section>

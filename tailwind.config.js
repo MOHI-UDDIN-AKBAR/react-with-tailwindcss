@@ -13,6 +13,10 @@ module.exports = {
       backgroundColor: {
         primary: "rgb(232, 98, 84)",
       },
+      backgroundImage: {
+        hero: "url('assets/images/collection-background.svg')",
+        card: "url('assets/images/thumbnail-background.svg')",
+      },
     },
   },
   plugins: ["tailwindcss ,autoprefixer"],
