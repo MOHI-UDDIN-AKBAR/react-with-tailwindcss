@@ -6,12 +6,15 @@ import { ShoeType, Statistic } from "../types";
 const Hero = () => {
   const [selectedShoe, setSelectedShoe] = useState<ShoeType>(shoes[0]);
   return (
-    <section className="relative flex min-h-screen w-full flex-col items-start justify-between  xl:flex-row">
-      <div className="flex w-full flex-col px-6 py-4 lg:basis-2/5">
+    <section
+      id="home"
+      className="relative flex min-h-screen w-full flex-col items-start justify-between  xl:flex-row "
+    >
+      <div className="mt-10 flex w-full flex-col px-6 py-4 lg:basis-2/5">
         <h3 className="text-md w-fit  px-2 py-1 font-semibold text-blue-400">
           Our Summer collections
         </h3>
-        <div className="my-8 flex w-full flex-col gap-2 text-6xl font-black capitalize sm:text-7xl">
+        <div className="mb-8 mt-4 flex w-full flex-col gap-2 text-6xl font-black capitalize sm:text-7xl">
           <h1 className="font-noto-Sans w-full bg-white leading-normal xl:whitespace-nowrap">
             The New Arrival
           </h1>
