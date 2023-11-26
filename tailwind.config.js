@@ -17,6 +17,9 @@ module.exports = {
         hero: "url('assets/images/collection-background.svg')",
         card: "url('assets/images/thumbnail-background.svg')",
       },
+      boxShadow: {
+        lg: "0px 0px 6px 3px rgba(0, 0, 0, 0.06),0px 2px 5px 2px rgba(0, 0, 0, 0.06)",
+      },
     },
   },
   plugins: ["tailwindcss ,autoprefixer"],
