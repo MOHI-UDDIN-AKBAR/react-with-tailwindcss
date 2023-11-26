@@ -31,3 +31,12 @@ export type Review = {
   rating: number;
   feedback: string;
 };
+
+export type FooterLinksType = { name: string; link: string };
+
+export type FooterLinks = {
+  title: string;
+  links: FooterLinksType[];
+};
+
+export type SocialMedia = { src: string; alt: string };
