@@ -2,7 +2,7 @@ import { Button } from "../Components";
 import { shoe8 } from "../assets/images";
 const SuperQuality = () => {
   return (
-    <section className="mx-auto flex flex-col items-center justify-evenly lg:my-10 lg:w-11/12 lg:flex-row lg:p-2">
+    <section className="mx-auto flex flex-col items-center justify-evenly lg:my-10 lg:w-11/12 lg:flex-row lg:p-2 xl:my-20">
       <div className="flex w-10/12 flex-col items-start justify-start px-1 py-px lg:px-2 lg:py-1">
         <h1 className="font-noto-Sans mb-px mt-4 p-2 text-[40px] font-semibold capitalize leading-normal text-black lg:text-5xl">
           We Provide You

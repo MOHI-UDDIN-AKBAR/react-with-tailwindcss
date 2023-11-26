@@ -25,10 +25,10 @@ const App = () => {
       <section>
         <Services />
       </section>
-      {/* <section>
+      <section>
         <SpecialOffer />
       </section>
-      <section>
+      {/*  <section>
         <CustomerReviews />
       </section>
       <section>
