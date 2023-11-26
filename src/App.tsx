@@ -12,7 +12,7 @@ import { Nav } from "./Components";
 const App = () => {
   return (
     <main className="max-container relative">
-      <Nav />
+      {/* <Nav />
       <section>
         <Hero />
       </section>
@@ -27,11 +27,11 @@ const App = () => {
       </section>
       <section>
         <SpecialOffer />
-      </section>
-      {/*  <section>
+      </section> */}
+      <section>
         <CustomerReviews />
       </section>
-      <section>
+      {/* <section>
         <Subscribe />
       </section>
       <section>
