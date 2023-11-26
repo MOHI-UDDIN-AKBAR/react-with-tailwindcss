@@ -2,12 +2,11 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import React from "react";
 
 type ButtonPropsType = {
-  mt?: string;
   label?: string;
   icon?: boolean;
 };
 
-const Button: React.FC<ButtonPropsType> = ({ mt, label, icon }) => (
+const Button: React.FC<ButtonPropsType> = ({ label, icon }) => (
   <button
     type="button"
     className="my-2 flex w-fit items-center justify-center rounded-full bg-blue-900  px-10 py-2 text-white hover:ring-2 hover:ring-blue-500 lg:px-10

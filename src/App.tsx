@@ -22,9 +22,9 @@ const App = () => {
       <section>
         <SuperQuality />
       </section>
-      {/* <section>
+      <section>
         <Services />
-      </section> */}
+      </section>
       {/* <section>
         <SpecialOffer />
       </section>

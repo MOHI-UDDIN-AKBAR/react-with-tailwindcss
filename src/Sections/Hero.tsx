@@ -26,7 +26,7 @@ const Hero = () => {
           Discover stylish Nike arrivals, quality comfort, and innovation for
           your active life.
         </p>
-        <Button />
+        <Button label={"Shop Now"} icon={true} />
         <div className="my-16 flex w-full flex-row items-center justify-around px-1 py-1 sm:w-3/4">
           {statistics.map((statistic: Statistic) => (
             <div
