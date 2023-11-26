@@ -19,13 +19,13 @@ const App = () => {
       <section>
         <PopularProducts />
       </section>
-      {/*<section>
+      <section>
         <SuperQuality />
       </section>
-      <section>
+      {/* <section>
         <Services />
-      </section>
-      <section>
+      </section> */}
+      {/* <section>
         <SpecialOffer />
       </section>
       <section>

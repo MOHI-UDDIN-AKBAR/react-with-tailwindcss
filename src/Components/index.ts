@@ -4,4 +4,6 @@ import NavLinks from "./NavLinks";
 import Button from "./Button";
 import ShoeCard from "./ShoeCard";
 import ProductCard from "./ProductCard";
-export { Nav, Logo, NavLinks, Button, ShoeCard, ProductCard };
+import ServiceCard from "./ServiceCard";
+
+export { Nav, ServiceCard, Logo, NavLinks, Button, ShoeCard, ProductCard };
